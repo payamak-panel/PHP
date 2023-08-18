@@ -3,9 +3,9 @@
     require('lib/Rest_Client.php');
 
     // SSL enabled version, use it after curl SSL configuration
-    // $restClient = new Pars\Rest_Client('username', 'password', true);
+    // $restClient = new pars\Rest_Client('username', 'password', true);
 
-    $restClient = new Pars\Rest_Client('username', 'password');
+    $restClient = new pars\Rest_Client('username', 'password');
 
     $result = $restClient->SendSMS('09123456789', '5000xxx', 'test sms', false);
     // $result = $restClient->GetDeliveries2(66666);
