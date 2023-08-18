@@ -8,7 +8,7 @@ Here we've provided a complete 3rd-party library (SDK) for PHP developers that c
 You can run the following **composer** command to have it:
 
 ```
-composer require pars/php:1.0.0
+composer require payamak-panel/php:1.0.0
 ```
 
 ## Usage
