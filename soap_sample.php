@@ -2,7 +2,7 @@
 
 require('lib/Soap_Client.php');
 
-$soapClient = new Pars\Soap_Client('username', 'password');
+$soapClient = new pars\Soap_Client('username', 'password');
 
 // print_r($soapClient->GetCredit());
 // echo $soapClient->GetCredit()->GetCreditResult;
